@@ -1,0 +1,29 @@
+{
+  "name": "practicing-nodejs-and-express",
+  "version": "1.0.0",
+  "description": "express basic app",
+  "main": "server.js",
+  "scripts": {
+  "start": "nodemon server.js"
+
+  },
+
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valehmoghaddam/practicing-nodejs-and-express.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Valeh Moghaddam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valehmoghaddam/practicing-nodejs-and-express/issues"
+  },
+  "homepage": "https://github.com/valehmoghaddam/practicing-nodejs-and-express#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
