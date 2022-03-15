@@ -1,9 +1,7 @@
 const express= require ("express");
 
-
 const app= express();
 app.use(express.json());
-
 
 
 const addtwonumber= (n1,n2) => {
@@ -26,7 +24,6 @@ app.get("/addtwonumber", (req,res) => {
 }
 })
 
-
 app.post("/addtwonumber", (req,res) => {
 
     try{
@@ -39,7 +36,6 @@ app.post("/addtwonumber", (req,res) => {
     res.json({statuscode:200, data:"something went wrong"});
 }
 })
-
 
 const port= 3030;
 
